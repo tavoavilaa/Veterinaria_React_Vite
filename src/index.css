@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.empty-state{
+    width: 75%;
+    margin: 0 auto;
+    opacity: .7;
+}
