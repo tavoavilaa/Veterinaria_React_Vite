@@ -13,8 +13,6 @@ function App() {
         const obtenerLS = () => {
             const pacientesLS = JSON.parse(localStorage.getItem('pacientes')) ?? [];
             setPacientes(pacientesLS)
-
-            console.log(pacientesLS)
         }
         obtenerLS();
     },[]);
